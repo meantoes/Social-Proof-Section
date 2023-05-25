@@ -26,9 +26,9 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop View]![Screenshot 2023-05-24 at 18-25-35 Frontend Mentor Social proof section](https://github.com/meantoes/Social-Proof-Section/assets/113872381/fbe572b8-2bec-4f16-85f2-2fcbc8f9e20c)
+[Desktop View]![Screenshot 2023-05-24 at 18-25-35 Frontend Mentor Social proof section](https://github.com/meantoes/Social-Proof-Section/assets/113872381/fbe572b8-2bec-4f16-85f2-2fcbc8f9e20c)
 
-![Mobile View]![Screen Shot 2023-05-24 at 18 26 34](https://github.com/meantoes/Social-Proof-Section/assets/113872381/cc32e4ba-9d0e-4b8e-959c-93f61d5046bb)
+[Mobile View]![Screen Shot 2023-05-24 at 18 26 34](https://github.com/meantoes/Social-Proof-Section/assets/113872381/cc32e4ba-9d0e-4b8e-959c-93f61d5046bb)
 
 ### Links
 
