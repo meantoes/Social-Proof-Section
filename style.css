@@ -1,0 +1,119 @@
+/* font-family: 'League Spartan', sans-serif;
+font-family: 'Sofia Sans Extra Condensed', sans-serif; */
+
+body {
+    font-size: 15px;
+    font-family: 'League Spartan', sans-serif;
+    min-height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2em;
+    box-sizing: border-box;
+}
+
+main {
+    line-height: 1.5em;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 1em 2em;
+    row-gap: 2em;
+}
+
+.group-1 {
+    box-sizing: border-box;
+    margin: 0 0.5em;
+}
+
+.heading {
+    font-size: 2em;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    text-align: center;
+}
+
+.para-one {
+    text-align: center;
+    color: hsl(303, 10%, 53%);
+    font-weight: 500;
+    margin-top: 1em;
+    font-size: 16px;
+}
+
+.group-2 {
+    display: grid;
+    row-gap: 1em;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
+
+.rate {
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 0.2em;
+    width: 20em;
+    height: 5em;
+}
+
+.stars {
+    margin-left: 0.2em;
+    vertical-align: text-bottom;
+}
+
+.group-3 {
+    display: grid;
+    grid-template-columns : repeat(minmax(100px, 1fr));
+    color: white;
+    row-gap: 1em;
+    margin: 2em 2.5em;
+    position: relative;
+}
+
+.reviews {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 5px;
+    padding: 2em;
+}
+
+.profile-detail {
+    display: flex;
+    column-gap: 1.5em;
+    align-items: center;
+    vertical-align: middle;
+    margin-bottom: 1.5em;
+}
+
+.photo-profile {
+    border-radius: 50%;
+    width: 40px;
+    display: block;
+}
+
+.ppp {
+    line-height: 1.3em;
+}
+
+.name {
+    font-weight: 700;
+}
+
+.info {
+    color: hsl(333, 80%, 67%);
+}
+
+.para-review {
+    line-height: 1.3em;
+    font-weight: 400;
+}
