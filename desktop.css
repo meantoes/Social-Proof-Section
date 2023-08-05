@@ -1,4 +1,10 @@
 @media (min-width: 600px) and (max-width: 800px) {
+    body {
+    background: url(images/bg-pattern-top-desktop.svg),url(images/bg-pattern-bottom-desktop.svg);
+    background-position: left -20vw top -20vh, right 0vw bottom -15vh;
+    background-repeat: no-repeat, no-repeat;
+    }
+
     .row-1 {
         grid-template-columns: 1fr 1fr;
         column-gap: 1em;
@@ -12,6 +18,9 @@
 @media (min-width: 801px) {
     body {
         padding: min(3em);
+        background: url(images/bg-pattern-top-desktop.svg),url(images/bg-pattern-bottom-desktop.svg);
+        background-position: left 4vw top -10vh, right -2vw bottom -30vh;
+        background-repeat: no-repeat, no-repeat;
     }
 
     .heading, .para-one {
@@ -66,5 +75,10 @@
     .review-three {
         margin-top: 2em;
         margin-bottom: -2em;
+    }
+
+    .heading {
+        font-size: 4em;
+        line-height: normal;
     }
 }
