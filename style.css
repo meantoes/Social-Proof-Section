@@ -3,13 +3,17 @@ font-family: 'Sofia Sans Extra Condensed', sans-serif; */
 
 body {
     font-size: 15px;
-    font-family: 'League Spartan', sans-serif;
     min-height: 100vh;
     display: grid;
     align-items: center;
     justify-content: center;
     padding-top: 2em;
     box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+
+    background: url(images/bg-pattern-top-mobile.svg),url(images/bg-pattern-bottom-mobile.svg);
+    background-position: left -6vw top -6vh, right 0vw bottom -15vh;
+    background-repeat: no-repeat, no-repeat;
 }
 
 main {
@@ -79,6 +83,7 @@ main {
     row-gap: 1em;
     margin: 2em 2.5em;
     position: relative;
+    margin-top: 5em;
 }
 
 .reviews {
@@ -115,5 +120,5 @@ main {
 
 .para-review {
     line-height: 1.3em;
-    font-weight: 400;
+    font-weight: 600;
 }
